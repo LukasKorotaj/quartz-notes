@@ -9,7 +9,7 @@ Ett **interface** är en abstrakt typ. Det är för att den definerar en uppsät
 
 Ett interface är **ingen klass** och man kan inte [[Ordlista#instansiera|instansiera]] ett interface.  
 
-En klass som implementerar interfacet måste implementera alla [[ordlista#abstrakta metoder|abstrakta metoder]] som finns i interfacet. 
+En klass som implementerar interfacet måste implementera alla [[Ordlista#abstrakta metoder|abstrakta metoder]] som finns i interfacet. 
 
 När vi deklarerar variabler anger vi deras typ. För [[Ordlista#referensvariabel|referensvariabel]] används klass eller interfacenamn som typ.
 
@@ -58,11 +58,11 @@ En annan lösning är att skapa en gemensam superklass med en [[Ordlista#abstrak
 
 ## Deklarera Interface
 * En interface finns i en egen fil (om den är `public`) och kompileras.
-* En interface kan innehålla en eller fler [[ordlista#abstrakta metoder|abstrakta metoder]], [[ordlista#konstant|konstanter]], [[ordlista#statisk metod|statiska metoder]], [[ordlista#default-metod|default-metoder]]. 
+* En interface kan innehålla en eller fler [[Ordlista#abstrakta metoder|abstrakta metoder]], [[Ordlista#konstant|konstanter]], [[Ordlista#statisk metod|statiska metoder]], [[Ordlista#default-metod|default-metoder]]. 
 * Metoderna i en interface är redan `public` och `abstract` så man behöver inte skriva det.
 
 ## Implementera flera Interface
-En [[ordlista#klass|klass]] kan implementera flera interface men kan endast ärva från en klass.
+En [[Ordlista#klass|klass]] kan implementera flera interface men kan endast ärva från en klass.
 
 ```java
 public class Hund extends Canis implements Djur, Varelse {

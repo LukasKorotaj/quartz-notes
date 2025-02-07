@@ -65,14 +65,14 @@ Bil minBil = new Bil("Röd")
 En **referensvariabel** lagrar en adress till en objekt i minnet, inte själva objektet.
 
 # Konstruktor 
-En **konstruktor** är en speciell metod i en [[ordlista#klass|klass]] som används för att initiera [[ordlista#objekt|objektets]] egenskaper.  
+En **konstruktor** är en speciell metod i en [[Ordlista#klass|klass]] som används för att initiera [[Ordlista#objekt|objektets]] egenskaper.  
 
 En konstruktor har **samma namn som klassen**, har **ingen returtyp** och **körs automatiskt** när `new` används.
 
 Ett exempel på en konstruktor finns is klassen [[Ordlista#^Djurklass|Djur]]
 
 # Superklass
-En **superklass** är en [[ordlista#klass|klass]] som innehåller variabler och metoder som kan ärvas av andra klasser.
+En **superklass** är en [[Ordlista#klass|klass]] som innehåller variabler och metoder som kan ärvas av andra klasser.
 
 # Subklass
 En **subklass** är en klass som ärver från en [[#superklass]]. Man skapar en subklass med nyckelordet `extends` och `@override` används för att skriva över en metod från superklassen.
@@ -86,7 +86,7 @@ public static final double PI = 3.14159;
 ```
 
 # Statisk Metod
-En statisk metod är en metod som tillhör själva [[ordlista#klass|klassen]] och inte en [[ordlista#instansiera|instans]] av klassen. Vad det betyder är att vi kan anropa en statisk metod **utan att skapa en objekt** av klassen. Man skapar en statisk metod med nyckelordet `static`. 
+En statisk metod är en metod som tillhör själva [[Ordlista#klass|klassen]] och inte en [[Ordlista#instansiera|instans]] av klassen. Vad det betyder är att vi kan anropa en statisk metod **utan att skapa en objekt** av klassen. Man skapar en statisk metod med nyckelordet `static`. 
 
 ```java
 public static int addera(int a, int b) {
@@ -101,7 +101,7 @@ int summa = Matematik.addera(5, 10);
 ```
 
 # Default-metod
-En **default-metod** är en en metod **med implementation** som man lägger i ett interface. Det löste ett problem där om man ville lägga till en metod i ett interface så behövde man uppdatera alla [[ordlista#klass|klasser]] som implementerade den. Med en default-metod så behöver man inte uppdatera klasser men man kan om man vill. Man skapar en default-metod med nyckelordet `default`.  
+En **default-metod** är en en metod **med implementation** som man lägger i ett interface. Det löste ett problem där om man ville lägga till en metod i ett interface så behövde man uppdatera alla [[Ordlista#klass|klasser]] som implementerade den. Med en default-metod så behöver man inte uppdatera klasser men man kan om man vill. Man skapar en default-metod med nyckelordet `default`.  
 
 I interface [[interface#^Interfacedjur|Djur]] så kan man lägga till en default-metod `sleep()` som alla klasser kommer att ha, "by default". 
 
